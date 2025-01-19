@@ -4,12 +4,14 @@
     "description": "Loads a random valorant lineup that a user can view",
     "version": "1.0.0",
     "action": {
-        "default_popup": "/popup.html",
         "default_title": "Random Valorant Lineup Generator",
         "default_icon": {
             "16": "icons/icon16.png",
             "48": "icons/icon48.png",
             "128": "icons/icon128.png"
         }
+    },
+    "chrome_url_overrides": {
+        "newtab": "newtab.html"
     }
 }
